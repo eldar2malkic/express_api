@@ -9,7 +9,7 @@ const courses = [
 ];
 
 app.get('/', (req, res) => {
-    res.send('Github is almost coolest!');
+    res.send('Github is coolest!');
 });
 
 app.get('/api/courses', (req, res) => {
